@@ -1,6 +1,36 @@
 /*=================================================================== */
+        /*---------- MEDIA QUERIES -------------*/
+/*==================================================================== */
+
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+
+/*=================================================================== */
         /*---------- General Styles -------------*/
 /*==================================================================== */
+
+.row {
+    margin: 0 auto !important;
+}
+
+
 .navbar {
     height: 60px;
 }
@@ -16,79 +46,50 @@
     margin: 20px 0px;
 }
 
-.pic-con {
-    width: 400px;
-    height: 300px;
+
+.cntnt {
+    width: 500px;
+    
 }
 
-.pic-con img{
-    width: 100%;
-}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .cntnt {
+        width: 500px;
 
-._showing {
-    display: none;
-    text-align: center;
-}
-
-.clickable {
-    cursor: pointer;
-    color: #ccc;
-/*    text-decoration: underline;*/
+    }
 
 }
 
-.clickable:hover {
-    text-decoration: underline;
-    text-decoration-color: #ccc;
-}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .cntnt {
+        width: 400px;
 
+    }
 
-/*=================================================================== */
-        /*---------- TTWP Styles -------------*/
-/*==================================================================== */
-
-.header-blue .hero .ttwp p {
-    width: 90% !important;
-}
-
-.ttwp .btn {
-    margin-right: 20px;
-}
-
-#goodbye {
-    color: #555;
-}
-
-.ttwp .row {
-    width: 100%;
-    margin-top: 30px;
-    display: 
-}
-
-.ttwp .col-md-6, .ttwp ul {
-    float: left;
-    text-align:
-        left
 }
 
 /*=================================================================== */
-        /*---------- UI Styles -------------*/
+        /*---------- MEDIA QUERIES -------------*/
 /*==================================================================== */
-.header-blue .hero .ui p {
-    width: 80%;
-    font-size: 1.2rem;
-    padding: 0px 5px 0px 5px;
-}
 
-form {
-    padding-bottom: 30px;
-}
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+*/
 
-.span_ {
-    font-weight: bold;
-    color: #000;
-}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
 
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
 
 
 /*=================================================================== */
