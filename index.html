@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Calculator::</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    
+    <!-- Styelesheets -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/custom_styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/calc.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="header-blue">
+            
+            <!------------------------------------------------->
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-default navigation-clean-search">
+                <div class="container">
+                    
+                    <!-- Title -->
+                    <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Calculator</a>
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav">
+<!--                            <li class="active" role="presentation"><a href="#">Link</a></li>-->
+                        </ul>
+                        <form class="navbar-form navbar-right" target="_self">
+                            <div class="form-group">
+                                <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
+<!--                                <input class="form-control search-field" type="search" name="search" id="search-field">-->
+                            </div>
+                        </form>
+<!--
+                        <p class="navbar-text navbar-right">
+                            <a class="navbar-link login" href="#">Log In</a> 
+                            <a class="btn btn-default action-button" role="button" href="#">Sign Up</a>
+                        </p>
+-->
+                    </div>
+                </div>
+            </nav>
+            
+            
+            <!------------------------------------------------->
+            <!-- CONTENT -->
+            <div class="container hero f-center">
+             
+                <div class="cntnt f-vert ui">
+                        
+                        <h1></h1>
+                        <br>
+                        
+                        <form class="form-horizontal">
+                          <div class="form-group">
+                            <label for="num1"> Number 1</label>
+                            <input type="number" class="form-control" id="num1" placeholder="num 1">
+                          </div>
+                          <div class="form-group">
+                            <label for="num2">Number 2</label>
+                            <input type="number" class="form-control" id="num2" placeholder="num 2">
+                          </div>
+<!--
+                          <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                          </div>
+-->              
+                          
+                        </form>
+                                
+                        <!-- CALCULATE ALL --> 
+                          <div class="result_ row f-center form-horizontal">
+                              <button class="btn btn-default" id="all">Calculate all</button>
+                          </div>
+                        <!-- SUM --> 
+                          <div class="result_ row f-center form-horizontal">
+                                <div id="result_s" class="col res_"></div>
+                                <div class="col">
+                                  <button class="btn btn-default" id="sum">+</button>
+                                </div>
+                          </div>
+                    
+                        <!-- SUM --> 
+                          <div class="result_ row f-center form-horizontal">
+                                <div id="result_d" class="col res_"></div>
+                                <div class="col">
+                                  <button class="btn btn-default" id="diff">-</button>
+                                </div>
+                          </div>
+                    
+                    </div>
+          
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
